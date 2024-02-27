@@ -32,7 +32,7 @@ class DietModel{
         duration: '30mins', 
         calories: '180kCal', 
         viewIsSelected: true,
-        boxColor: Color(0xff9DCEFF)
+        boxColor: Color.fromARGB(255, 141, 184, 228)
         )
         );
     
@@ -44,7 +44,7 @@ class DietModel{
        duration: '20mins',
        calories: '230kCal',
        viewIsSelected: false,
-       boxColor: Color(0xffEEA4CE)
+       boxColor: Color.fromARGB(255, 231, 114, 114)
       )
     );
     return diets;
